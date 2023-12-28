@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Tela de Login</title>
+    
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="processar_login.php" method="post">
+            <input type="text" name="username" placeholder="Nome de usuário" required>
+            <input type="password" name="password" placeholder="Senha" required>
+            <button type="button" onclick="redirecionarParaHome()">Entrar</button>
+        </form>
+        <a href="cadastro.html">Ainda não possui um cadastro? Cadastre-se aqui.</a><br>
+        <a href="Emp.html">Quer divulgar suas vagas? Cadastre-se aqui.</a><br>
+        <a href="senha.html">Esqueceu a senha?</a>
+    </div>
+    <script>
+        function redirecionarParaHome() {
+            // Aqui você pode redirecionar para a página desejada
+            window.location.href = "listarvagas.php";
+        }
+    </script>
+
+</body>
+</html>
