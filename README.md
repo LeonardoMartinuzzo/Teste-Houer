@@ -29,6 +29,12 @@ Infelizmente não consegui fazer o CRUD completo, tive algumas dificuldades.
 Banco de dados: Criei apenas duas tabelas, "Candidatos" e "Vagas".
 O formulário de cadastro do para "acessar" o site, está enviando as informações para o banco, e estamos puxando as vagas de dentro da tabela criada também.
 
+Dados de acesso ao Banco:
+Hostname: 127.0.0.1
+Port: 3306
+Username: root
+Password: 080423Leo*
+
 Estarei deixando um PDF, aprensentado a parte visual também.
 
 Pesquisei sobre a clonagem do repositório do GIT, segue o link de como realizar o procedimento.
