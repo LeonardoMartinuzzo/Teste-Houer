@@ -24,6 +24,8 @@ VAGAS: Consegui criar a listagem de vagas, apresentando apenas 10 vagas por pág
 As vagas estão sendo demonstradas de acordo com o que foi inserido diretamente no banco de dados.
 Infelizmente não consegui fazer o CRUD completo, tive algumas dificuldades.
 
+(Cheguei a criar o formulário de inserção das vagas mas, infelizmente não consegui de modo algum importar os dados no banco, deixei o código no GIT)
+
 Banco de dados: Criei apenas duas tabelas, "Candidatos" e "Vagas".
 O formulário de cadastro do para "acessar" o site, está enviando as informações para o banco, e estamos puxando as vagas de dentro da tabela criada também.
 
